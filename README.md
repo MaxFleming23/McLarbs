@@ -2,8 +2,6 @@
 
 McLarbs is a personalised version of Luke Smith's Auto-Rice Bootstrapping Scripts ([LARBS](https://github.com/LukeSmithxyz/LARBS))
 
-Using my custom [dotfiles repo (Max-imised_Voidrice)](https://github.com/MaxFleming23/Max-imised_Voidrice) and custom progs.csv
-
 ## Installation:
 
 On an Arch-based distribution as root, run the following:
