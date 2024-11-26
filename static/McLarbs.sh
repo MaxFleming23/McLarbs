@@ -259,7 +259,7 @@ installffaddons(){
 
 finalize() {
 	whiptail --title "All done!" \
-		--msgbox "Congrats! Provided there were no hidden errors, the script completed successfully and all the programs and configuration files should be in place.\\n\\nTo run the new graphical environment, log out and log back in as your new user, then run the command \"startx\" to start the graphical environment (it will start automatically in tty1).\\n\\n.t Luke" 13 80
+		--msgbox "Congrats! Provided there were no hidden errors, the script completed successfully and all the programs and configuration files should be in place.\\n\\nTo run the new graphical environment, log out and log back in as your new user, then run the command \"startx\" to start the graphical environment (it will start automatically in tty1).\\n You may also wish to run codium-init.sh\\n\\n.t Luke" 13 80
 }
 
 ### THE ACTUAL SCRIPT ###
@@ -398,8 +398,6 @@ echo "kernel.dmesg_restrict = 0" > /etc/sysctl.d/dmesg.conf
 # Cleanup
 rm -f /etc/sudoers.d/larbs-temp
 
-# Initialise codium
-sh ~/.local/bin/codium-init.sh
 
 # Last message! Install complete!
 finalize
