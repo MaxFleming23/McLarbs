@@ -20,6 +20,7 @@ sh McLarbs.sh
   - spreadsheet and word doc file previews
   - extensions for librewolf and codium
   - integration of the below programs...
+Programs:
 - **VSCodium** + extensions: *VS Code without MS branding/telemetry/licensing*
 	- General Enhancements:
 		- file-icons: *File-specific icons in the editor.*
