@@ -232,7 +232,7 @@ Exec=/usr/local/lib/arkenfox-auto-update" > /etc/pacman.d/hooks/arkenfox.hook
 }
 
 installffaddons(){
-	addonlist="ublock-origin darkreader istilldontcareaboutcookies vimium-ff vim-vixen"
+	addonlist="ublock-origin darkreader istilldontcareaboutcookies vimium-ff"
 	addontmp="$(mktemp -d)"
 	trap "rm -fr $addontmp" HUP INT QUIT TERM PWR EXIT
 	IFS=' '
