@@ -52,3 +52,16 @@ Smaller Packages:
 - **oath-toolkit**: *Provides tools for OATH-based two-factor authentication.*
 - **networkmanager**: *Manages network connections.*
 
+
+## Other Tips
+
+### PC Dependent Hicups
+- Video: for NVIDIA laptops likely needs `xorg` install (as opposed to minimal) with proprietary Nvidia drivers. 
+- Audio: may need to play with pulsemixer and the sb-volume script... (pulseaudio?)
+- Brightness: play with the sb-brightness script...
+
+### Personal Setup
+- Librewolf: enable plugins
+- SyncThing: connect to devices
+- Codium: run `codium-init.sh`
+- Thunderbird: email signin
