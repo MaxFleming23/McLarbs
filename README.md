@@ -65,3 +65,8 @@ Smaller Packages:
 - SyncThing: connect to devices
 - Codium: run `codium-init.sh`
 - Thunderbird: email signin
+- Cronie and setup script for calcurse, newsboat...
+```
+sudo systemctl enable cronie
+sudo systemctl start cronie
+```
