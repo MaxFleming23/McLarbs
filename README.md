@@ -62,7 +62,11 @@ Smaller Packages:
 
 ### Personal Setup
 - Librewolf: enable plugins
-- SyncThing: connect to devices
+- SyncThing: connect to devices, set auto-run:
+```
+systemctl --user enable syncthing.service
+systemctl --user start syncthing.service
+```
 - Codium: run `codium-init.sh`
 - Thunderbird: email signin
 - Cronie and setup script for calcurse, newsboat...
