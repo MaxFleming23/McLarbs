@@ -20,6 +20,9 @@ sh McLarbs.sh
   - integration of the below programs...
 
 Programs:
+- **Neovim**: *Better than emacs ;)*
+	- Luke's defaults for `vim-surround`, `nerdtree`, `goyo`, `vimagit`, `vimwiki`, `airline`, `commentary`, `css-color`.  
+	- `vimtex`: use with `:VimtexCompile`, set to read `%! TeX program = lualatex` headers for `tikz-feynman` and related. 
 - **VSCodium** + extensions: *VS Code without MS branding/telemetry/licensing*
 	- General Enhancements:
 		- file-icons: *File-specific icons in the editor.*
@@ -59,6 +62,7 @@ Smaller Packages:
 - Video: for NVIDIA laptops likely needs `xorg` install (as opposed to minimal) with proprietary Nvidia drivers. 
 - Audio: may need to play with pulsemixer and the sb-volume script... (pulseaudio?)
 - Brightness: play with the sb-brightness script...
+- Bluetooth: use `bluetoothctl`...
 
 ### Personal Setup
 - Librewolf: enable plugins
